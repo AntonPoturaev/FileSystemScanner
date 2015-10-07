@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Bytes.h" />
+    <ClInclude Include="IScannerFwd.h">
+      <Filter>Scanners\interfaces %28abstract%29</Filter>
+    </ClInclude>
+    <ClInclude Include="IScannerEvents.h">
+      <Filter>Scanners\interfaces %28abstract%29</Filter>
+    </ClInclude>
+    <ClInclude Include="IScanerProtocol.h">
+      <Filter>Scanners\interfaces %28abstract%29</Filter>
+    </ClInclude>
+    <ClInclude Include="IScanner.h">
+      <Filter>Scanners\IScanner %28base abstract interface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ScannerFactory.h">
+      <Filter>Scanners\ScannerFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureStore.h">
+      <Filter>SignatureStore</Filter>
+    </ClInclude>
+    <ClInclude Include="Signature.h">
+      <Filter>SignatureStore\Signature</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectUniqueFilePathes.h">
+      <Filter>Details\CollectUniqueFilePathes</Filter>
+    </ClInclude>
+    <ClInclude Include="MappedFileReadOnly.h">
+      <Filter>Details\MappedFile</Filter>
+    </ClInclude>
+    <ClInclude Include="MappedFileBase.h">
+      <Filter>Details\MappedFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureStoreParser.h">
+      <Filter>Details\SignatureStoreParser</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureStoreGrammar.h">
+      <Filter>Details\SignatureStoreParser\Grammars</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIDStringGrammar.h">
+      <Filter>Details\SignatureStoreParser\Grammars</Filter>
+    </ClInclude>
+    <ClInclude Include="HexadecimalStringGrammar.h">
+      <Filter>Details\SignatureStoreParser\Grammars</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureStoreFactory.h">
+      <Filter>SignatureStore\SignatureStoreFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{32bdbbb1-b280-4d1f-bef3-7c5559432ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scanners">
+      <UniqueIdentifier>{cd4cf690-8566-4938-bb49-fc9eed42843e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scanners\IScanner %28base abstract interface%29">
+      <UniqueIdentifier>{fa9896bd-6588-43a0-a6b3-19058abb5b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scanners\interfaces %28abstract%29">
+      <UniqueIdentifier>{a7b7d38e-ea75-481e-b549-1f657d6883f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scanners\ScannerFactory">
+      <UniqueIdentifier>{a31888c7-71fb-49bb-90dc-54f7e384f024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scanners\Scanners implementation">
+      <UniqueIdentifier>{6a55ab92-37ab-4663-a097-4b28a212e343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SignatureStore">
+      <UniqueIdentifier>{1ca3a2c2-550a-40c4-b7f5-d12dcac876da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SignatureStore\Signature">
+      <UniqueIdentifier>{04e3755f-9cfd-4d67-89fd-cf235185b348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{01fda234-4c01-4b7d-b044-0cfd10898434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Details">
+      <UniqueIdentifier>{62908300-5817-459b-9dbb-52c5fbf5b053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Details\CollectUniqueFilePathes">
+      <UniqueIdentifier>{cd2f632a-91e4-448f-8741-697401587470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Details\MappedFile">
+      <UniqueIdentifier>{fe26e3b9-59ba-4293-b0c8-744b48eeaedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Details\SignatureStoreParser">
+      <UniqueIdentifier>{208defd2-4981-488f-9d8e-555152b4aadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Details\SignatureStoreParser\Grammars">
+      <UniqueIdentifier>{365f3d48-52f3-45c5-9d08-45dd497220ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SignatureStore\SignatureStoreFactory">
+      <UniqueIdentifier>{ecccb3a6-2e2d-4cb1-b84c-1c603801d0d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="IScanner.cpp">
+      <Filter>Scanners\IScanner %28base abstract interface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ScannerFactory.cpp">
+      <Filter>Scanners\ScannerFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="StdSearchScanner.cpp">
+      <Filter>Scanners\Scanners implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="KnutMorrisPrattScanner.cpp">
+      <Filter>Scanners\Scanners implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="BoyerMooreScanner.cpp">
+      <Filter>Scanners\Scanners implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="BoyerMooreHorsepoolScanner.cpp">
+      <Filter>Scanners\Scanners implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="SignatureStore.cpp">
+      <Filter>SignatureStore</Filter>
+    </ClCompile>
+    <ClCompile Include="Signature.cpp">
+      <Filter>SignatureStore\Signature</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectUniqueFilePathes.cpp">
+      <Filter>Details\CollectUniqueFilePathes</Filter>
+    </ClCompile>
+    <ClCompile Include="MappedFileReadOnly.cpp">
+      <Filter>Details\MappedFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SignatureStoreParser.cpp">
+      <Filter>Details\SignatureStoreParser</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIDStringGrammar.cpp">
+      <Filter>Details\SignatureStoreParser\Grammars</Filter>
+    </ClCompile>
+    <ClCompile Include="HexadecimalStringGrammar.cpp">
+      <Filter>Details\SignatureStoreParser\Grammars</Filter>
+    </ClCompile>
+    <ClCompile Include="SignatureStoreGrammar.cpp">
+      <Filter>Details\SignatureStoreParser\Grammars</Filter>
+    </ClCompile>
+    <ClCompile Include="SignatureStoreFactory.cpp">
+      <Filter>SignatureStore\SignatureStoreFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
